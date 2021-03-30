@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/serveurs",
+      "handler": "serveur.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/serveurs/count",
+      "handler": "serveur.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/serveurs/:id",
+      "handler": "serveur.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/serveurs",
+      "handler": "serveur.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/serveurs/:id",
+      "handler": "serveur.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/serveurs/:id",
+      "handler": "serveur.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
